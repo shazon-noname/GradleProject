@@ -19,6 +19,10 @@ dependencies {
     // Use JUnit test framework.
     testImplementation libs.junit
 
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.12.0'
+
+
     // This dependency is used by the application.
     implementation libs.guava
 }
